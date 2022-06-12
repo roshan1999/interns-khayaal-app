@@ -2,8 +2,7 @@ import React from 'react';
 import './Dummy1.css';
 const Dummy1 = () => {
     return ( 
-        <div style={{boxSizing: "border-box"}}>
-            <p>Hello</p><h1>Hello</h1>
+        <div className="donate-form" style={{boxSizing: "border-box"}}>
         <div id='login-form' className='login-page'>
             <div className="form-box">
                 {/* <a href="#" className="modal-close">X</a> */}

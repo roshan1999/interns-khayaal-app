@@ -1,4 +1,4 @@
-import modalexample from "../../assets/modal-example.jpg";
+import Dummy1 from "../Donate-Dummy-Page/Dummy1"
 import "./DonatePage.css";
 const DonatePage = () => {
   const loremLong ="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti itaque assumenda culpa, possimus, officia delectus dignissimos quam iure nam quibusdam, temporibus voluptas magnam sunt repudiandae voluptatibus praesentium earum ut voluptatem beatae. Sapiente alias voluptatibus velit?";
@@ -9,7 +9,7 @@ const DonatePage = () => {
         <p className="donate-desc">{loremLong}</p>
       </div>
       <div className="donate-modal-container">
-        <img src={modalexample}></img>
+        <Dummy1></Dummy1>
       </div>
     </div>
   );

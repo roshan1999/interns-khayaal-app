@@ -1,62 +1,62 @@
+.donate-form {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
 #login-form
 {
-    display: block;
+	display: block;
 }
 .form-box
 {
+	justify-content: center;
     align-items: center;
-    width: 480px;
-	height:680px;
-	position:relative;
-	margin:2% auto;
-	background:rgba(247, 244, 244, 1);
-	padding:10px;
+	margin-bottom:40vw auto;
+	background:var(--primary-light);
+	padding:0.9vw;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 1%;
 }
 .button-box
 {
-	width:320px;
-	margin:5% auto;
+	width:20rem;
+	margin:2.1rem auto;
 	position:relative;
-	box-shadow: 0 0 9px 3px #885F88;
+	box-shadow: 0 0 9px 3px var(--secondary-text-color);
 	border-radius: 30px;
 }
 .toggle-btn
 {
-	padding:10px 30px;
+	padding:0.6rem 1.9rem;
 	cursor:pointer;
 	background:transparent;
 	border:0;
 	outline: none;
 	position: relative;
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: bolder;
-    font-family: Roboto;
 }
 #btn
 {
 	top: 0;
 	left:0;
 	position: absolute;
-	max-width: 55%;
+	width: 10rem;
 	height: 100%;
-	background: #885F88;
-	border-radius: 30px;
+	background: var(--secondary-text-color);
+	border-radius: 1.9rem;
 	transition: .5s;
 }
 .input-group-login
 {
-	top: 13%;
-	position:absolute;
-	max-width:380px;
+	top: 6.25rem;
+	width:23.75rem;
 	transition:.5s;
 }
 .input-group-register
 {
-    top: 120px;
-	position:absolute;
-	width:380px;
+    top: 7.5rem;
+	width:23.75rem;
 	transition:.5s;
 }
 .input-field
@@ -75,47 +75,47 @@
 .submit-btn
 {
 	width: 85%;
-	padding: 5% 16%;
+	padding: 0.6rem 1.9rem;
 	cursor: pointer;
 	display: block;
 	margin: auto;
-	background: #885F88;
+	background: var(--secondary-text-color);
 	border: 0;
 	outline: none;
-	border-radius: 30px;
+	border-radius: 1.9rem;
     color: white;
-    margin-top: 5%;
-    font-size: 15px;
+    margin-top: 1.25rem;
+    font-size: 0.9rem;
     font-weight: bolder;
 }
 .check-box
 {
-	margin: 30px 10px 34px 0;
+	margin: 1.9rem 0.6rem 2.4rem 0;
 }
 span
 {
 	color: black;
-	font-size:12px;
-	bottom:68px;
+	font-size:0.75rem;
+	bottom:4.25rem;
 	position:absolute;
 }
 #login
 {
-	left:50px;
+	left:3.125rem;
 }
 #login>input
 {
 	color:black;
-	font-size:15;
+	font-size:0.9rem;
 }
 #register
 {
-	left:550px;
+	left:34.4rem;
 }
 #register>input
 {
 	color:black;
-	font-size: 15;
+	font-size: 0.9rem;
 }
 
 
@@ -124,9 +124,9 @@ span
 .modal-close {
     float:right;
     text-decoration:none;
-    padding:1px 10px;
+    padding:0.06rem 0.6rem;
     color:black;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight:200;
     transition:all .3s ease-in-out;
     z-index:+1;
@@ -146,10 +146,9 @@ span
 
 
 h3 {
-    font-family: Roboto;
     /* border-bottom: 1px solid black; */
     /* height: 40px; */
-    font-size: 15px;
+    font-size: 0.9rem;
 }
 .leftside {
     /* margin-top: 50px;
@@ -158,8 +157,7 @@ h3 {
 }
 
 .labelexpanded {
-    font-size: 12px;
-    font-family: Roboto;
+    font-size: 0.75rem;
 }
 
 .labelexpanded > input {
@@ -172,8 +170,8 @@ h3 {
 }
 
 .radio-btns {
-    width: 97px;
-    height: 59px;
+    width: 6rem;
+    height: 3.7rem;
     border-radius: 15px;
     position: relative;
     text-align: center;
@@ -182,14 +180,13 @@ h3 {
     cursor: pointer;
     border: 2px solid #eaeaea;
     float:left;
-    margin: 20px;
+    margin: 1.25rem;
     align-items: center;
 }
 
 .radio-btns > p {
-    font-size: 12px;
-    margin: 17px;
-    font-family: Roboto;
+    font-size: 0.75rem;
+    margin: 1rem;
 }
 
 
