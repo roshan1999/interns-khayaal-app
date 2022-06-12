@@ -8,7 +8,7 @@
     width: 480px;
 	height:680px;
 	position:relative;
-	margin:250px auto;
+	margin:2% auto;
 	background:rgba(247, 244, 244, 1);
 	padding:10px;
     overflow: hidden;
@@ -17,7 +17,7 @@
 .button-box
 {
 	width:320px;
-	margin:35px auto;
+	margin:5% auto;
 	position:relative;
 	box-shadow: 0 0 9px 3px #885F88;
 	border-radius: 30px;
@@ -32,13 +32,14 @@
 	position: relative;
     font-size: 15px;
     font-weight: bolder;
+    font-family: Roboto;
 }
 #btn
 {
 	top: 0;
 	left:0;
 	position: absolute;
-	width: 160px;
+	max-width: 55%;
 	height: 100%;
 	background: #885F88;
 	border-radius: 30px;
@@ -46,9 +47,9 @@
 }
 .input-group-login
 {
-	top: 100px;
+	top: 13%;
 	position:absolute;
-	width:380px;
+	max-width:380px;
 	transition:.5s;
 }
 .input-group-register
@@ -74,7 +75,7 @@
 .submit-btn
 {
 	width: 85%;
-	padding: 10px 30px;
+	padding: 5% 16%;
 	cursor: pointer;
 	display: block;
 	margin: auto;
@@ -83,7 +84,7 @@
 	outline: none;
 	border-radius: 30px;
     color: white;
-    margin-top: 20px;
+    margin-top: 5%;
     font-size: 15px;
     font-weight: bolder;
 }
@@ -145,6 +146,7 @@ span
 
 
 h3 {
+    font-family: Roboto;
     /* border-bottom: 1px solid black; */
     /* height: 40px; */
     font-size: 15px;
@@ -157,6 +159,7 @@ h3 {
 
 .labelexpanded {
     font-size: 12px;
+    font-family: Roboto;
 }
 
 .labelexpanded > input {
@@ -186,6 +189,7 @@ h3 {
 .radio-btns > p {
     font-size: 12px;
     margin: 17px;
+    font-family: Roboto;
 }
 
 

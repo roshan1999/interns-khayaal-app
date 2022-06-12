@@ -1,4 +1,5 @@
 import React from 'react';
+import './Dummy1.css';
 const Dummy1 = () => {
     return ( 
         <div style={{boxSizing: "border-box"}}>
@@ -38,7 +39,7 @@ const Dummy1 = () => {
                     <input type='number'className='input-field'placeholder='Custom Amount' required />
 
                     <h3 style={{margin: "20px 0px"}}>Personal Details</h3>
-                    <input type='text'className='input-field'placeholder='First Name' required style={{width: "49%"}} />
+                    <input type='text'className='input-field'placeholder='First Name' required style={{width: "49%", marginRight: "6px"}} />
                     <input type='text'className='input-field'placeholder='Last Name ' required style={{width: "49%"}} />
                     <input type='email'className='input-field'placeholder='Email Id' required />
                     <input type='number'className='input-field'placeholder='Phone Number' required />
