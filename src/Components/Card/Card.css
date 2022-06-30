@@ -110,3 +110,20 @@
   margin-top:4%;
 }
 
+@media screen and (max-width:600px) {
+  .flipCard {
+    width:38.5vw;
+  }
+  .cardName h2 {
+    font-size: 3.75vw;
+  }
+  .cardTitle {
+    font-size: 3.25vw;
+  }
+  .memimg {
+    width:27vw;
+  }
+  .flipCard:hover .flipCard-inner {
+    transform: rotateY(0);
+  }
+}

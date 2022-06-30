@@ -17,7 +17,7 @@
   content: '';
   height: 1px;
   background-color: rgba(46, 36, 75, 0.3);
-  flex-grow: 0.425;
+  flex-grow: 0.4;
 }
 
 .divhead::before {
